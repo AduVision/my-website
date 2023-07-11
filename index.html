@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Big Project</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>  
+  <div class="pro">
+   <div class="header">    
+     
+    <nav>    
+        <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+       
+        <div class="navlink" id="navlink">  
+           
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="CV.pdf" target="_blank">resume</a></li>
+            <li><a href="contact.html">contact</a></li>      
+         </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="para">
+  <h1>I'm Adiam <span>Beien</span></h1>
+        <p>This is my official portoflio website to show all 
+          details and work exprences web development. </p>
+        <a href="CV.pdf" target="_blank">download CV</a>
+      </div>
+      <div class="images">
+      <img src="images/girl.png" alt="">
+       </div>
+    </div>
+    <div class="footer"> 
+       <div class="fpara"> 
+            <h1>Stay Conected</h1>
+            <p>San Diego Avenue</p>
+            <a href="">adusmart2023@gmail.com</a>
+            <p> Whatsapp number: +16120564997</p>
+         </div> 
+         <div class="colomn">
+             
+            <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Tiktok</a></li>
+            </ul>
+         </div>
+     </div>    
+    
+  </div>
+
+  <!--JavaScript for toggle menu -->
+<script>
+   
+    var navlink = document.getElementById("navlink");
+
+     function showmenu()
+     {
+         navlink.style.display ="block";
+     }
+
+     function hidemenu()
+      {
+          navlink.style.display ="none";
+      }
+
+  </script>
+
+
+ </body>
+</html>
